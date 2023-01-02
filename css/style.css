@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-header a {
+    text-decoration: none;
+}
+
+.nav-header ul li {
+    margin-right: 30px;
+    font-size: 30px;
+
+}
+
+.nav-header ul li a {
+    color: #003865;
+
+}
+
+.logo {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 30px;
+    color: #003865;
+}
+
+
+.nav-header ul li a.contato {
+
+    color: #F36609;
+    background-color: #003865;
+    padding: 30px;
+    border-radius: 40px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #003865;
+    height: 80vh;
+    width: 100vw;
+}
+footer{
+    height: 100vh;
+    width: 100vw;
+}
